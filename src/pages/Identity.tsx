@@ -5,10 +5,10 @@ import { ProprietaryModelInfographic } from '../components/ProprietaryModelInfog
 
 export default function Identity() {
   return (
-    <div className="pt-32 pb-32 px-6 min-h-screen">
+    <div className="pt-20 pb-10 px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
         <FadeIn>
-          <div className="mb-16">
+          <div className="mb-8">
             <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-tight text-gradient-blue mb-6">
               Sovereign AI
             </h1>
@@ -18,7 +18,7 @@ export default function Identity() {
           </div>
         </FadeIn>
 
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 items-center mb-10">
           <FadeIn delay={0.1}>
             <h2 className="font-display text-3xl md:text-5xl font-bold uppercase tracking-tight text-text-main mb-8 leading-none">
               The Shift from <br />
@@ -49,7 +49,7 @@ export default function Identity() {
           </FadeIn>
         </div>
 
-        <FadeIn delay={0.3} className="glass-panel p-12 text-center max-w-4xl mx-auto">
+        <FadeIn delay={0.3} className="glass-panel p-8 text-center max-w-4xl mx-auto">
           <h3 className="font-display text-3xl font-bold uppercase tracking-wide text-gradient-blue mb-6">
             What is ALRigs Continuum?
           </h3>

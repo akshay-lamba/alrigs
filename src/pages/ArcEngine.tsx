@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 
 export default function ArcEngine() {
   return (
-    <div className="pt-32 pb-32 px-6 min-h-screen">
+    <div className="pt-20 pb-10 px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
         <FadeIn>
-          <div className="mb-16">
+          <div className="mb-8">
             <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-tight text-gradient-blue mb-6">
               The ARC Engine
             </h1>
@@ -17,16 +17,16 @@ export default function ArcEngine() {
           </div>
         </FadeIn>
 
-        <div className="mb-32">
+        <div className="mb-16">
           <FadeIn delay={0.1}>
-            <div className="glass-panel p-8 md:p-12 text-center relative overflow-hidden mb-16 max-w-4xl mx-auto">
+            <div className="glass-panel p-8 md:p-12 text-center relative overflow-hidden mb-8 max-w-4xl mx-auto">
               <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-accent-blue to-transparent" />
               <Activity size={48} className="text-accent-blue mx-auto mb-6 drop-shadow-[0_0_10px_rgba(59,130,246,0.5)]" />
               <h2 className="font-display text-3xl md:text-5xl font-bold uppercase tracking-wide text-gradient-blue mb-6">
                 The Formula
               </h2>
               <div className="font-mono text-2xl md:text-4xl text-accent-blue tracking-widest mb-6 drop-shadow-[0_0_8px_rgba(59,130,246,0.4)]">
-                C + D + V² = ARC
+                C + D + V² = ARC ENGINE
               </div>
               <p className="font-body text-lg text-text-main/80 leading-relaxed">
                 Context (C) grounded in your proprietary data. Depth (D) achieved through specialized Small Language Models (SLMs) and Vector DBs. Velocity squared (V²) driven by autonomous AI Agents executing tasks at machine speed whilst creating audit artifacts in parallel!
@@ -34,7 +34,7 @@ export default function ArcEngine() {
             </div>
           </FadeIn>
 
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-4">
             {[
               {
                 title: "Knowledge Layer",
@@ -85,8 +85,8 @@ export default function ArcEngine() {
         </div>
 
         {/* Trust & Verification Section */}
-        <div className="mb-32">
-          <FadeIn delay={0.2} className="text-center mb-16">
+        <div className="mb-10">
+          <FadeIn delay={0.2} className="text-center mb-8">
             <h2 className="font-display text-4xl md:text-6xl font-bold uppercase tracking-wide text-text-main mb-4">
               Trust & Verification
             </h2>
@@ -95,7 +95,7 @@ export default function ArcEngine() {
             </p>
           </FadeIn>
 
-          <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 max-w-6xl mx-auto">
+          <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 max-w-6xl mx-auto">
             {/* Infographic 1: Strict Verification */}
             <FadeIn delay={0.3} className="glass-panel p-8 md:p-12 relative overflow-hidden group">
               <div className="absolute inset-0 bg-gradient-to-br from-accent-blue/5 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-500" />
@@ -169,7 +169,7 @@ export default function ArcEngine() {
           </div>
         </div>
 
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-12">
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
           <FadeIn delay={0.5} className="border-l-2 border-accent-blue pl-8 py-4 shadow-[-4px_0_15px_-5px_rgba(59,130,246,0.2)]">
             <h3 className="font-display text-3xl font-bold uppercase tracking-wide text-text-main mb-4">
               The Learning Layer

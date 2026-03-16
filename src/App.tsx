@@ -10,6 +10,7 @@ import Identity from './pages/Identity';
 import ArcEngine from './pages/ArcEngine';
 import BusinessImpact from './pages/BusinessImpact';
 import ValueProposition from './pages/ValueProposition';
+import HumanUpgrade from './pages/HumanUpgrade';
 
 export default function App() {
   return (
@@ -21,6 +22,7 @@ export default function App() {
           <Route path="arc-engine" element={<ArcEngine />} />
           <Route path="business-impact" element={<BusinessImpact />} />
           <Route path="value-proposition" element={<ValueProposition />} />
+          <Route path="human-upgrade" element={<HumanUpgrade />} />
         </Route>
       </Routes>
     </BrowserRouter>

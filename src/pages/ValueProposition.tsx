@@ -4,10 +4,10 @@ import { motion } from 'motion/react';
 
 export default function ValueProposition() {
   return (
-    <div className="pt-32 pb-32 px-6 min-h-screen">
+    <div className="pt-20 pb-10 px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
         <FadeIn>
-          <div className="mb-24 text-center">
+          <div className="mb-10 text-center">
             <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-tight text-gradient-blue mb-6">
               The Value Proposition
             </h1>
@@ -29,7 +29,7 @@ export default function ValueProposition() {
           />
 
           {/* Section 1: Revenue */}
-          <div className="relative mb-24 md:mb-32">
+          <div className="relative mb-10 md:mb-12">
             <FadeIn className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
               <div className="hidden md:flex flex-1 justify-end text-right">
                 <div className="max-w-md">
@@ -59,7 +59,7 @@ export default function ValueProposition() {
           </div>
 
           {/* Section 2: Costs */}
-          <div className="relative mb-24 md:mb-32">
+          <div className="relative mb-10 md:mb-12">
             <FadeIn className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-16">
               <div className="hidden md:flex flex-1 justify-start">
                 <div className="max-w-md">
@@ -90,7 +90,7 @@ export default function ValueProposition() {
           </div>
 
           {/* Section 3: Margins */}
-          <div className="relative mb-24 md:mb-32">
+          <div className="relative mb-10 md:mb-12">
             <FadeIn className="flex flex-col md:flex-row items-center gap-8 md:gap-16">
               <div className="hidden md:flex flex-1 justify-end text-right">
                 <div className="max-w-md">
@@ -120,7 +120,7 @@ export default function ValueProposition() {
           </div>
 
           {/* Section 4: Enterprise Value */}
-          <div className="relative mb-24 md:mb-32">
+          <div className="relative mb-10 md:mb-12">
             <FadeIn className="flex flex-col md:flex-row-reverse items-center gap-8 md:gap-16">
               <div className="hidden md:flex flex-1 justify-start">
                 <div className="max-w-md">

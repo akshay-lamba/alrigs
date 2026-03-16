@@ -3,10 +3,10 @@ import { FadeIn } from '../components/FadeIn';
 
 export default function BusinessImpact() {
   return (
-    <div className="pt-32 pb-32 px-6 min-h-screen">
+    <div className="pt-20 pb-10 px-6 min-h-screen">
       <div className="max-w-7xl mx-auto">
         <FadeIn>
-          <div className="mb-16">
+          <div className="mb-12">
             <h1 className="font-display text-5xl md:text-7xl font-bold uppercase tracking-tight text-gradient-blue mb-6">
               The Business Impact
             </h1>
@@ -17,7 +17,7 @@ export default function BusinessImpact() {
         </FadeIn>
 
         {/* 1. Revenue & 2. Costs */}
-        <div className="grid grid-cols-1 lg:grid-cols-2 gap-8 mb-32">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-6 mb-10">
           {/* Revenue */}
           <FadeIn delay={0.1} className="glass-panel p-8 md:p-12 relative overflow-hidden group">
             <div className="absolute top-0 left-0 w-full h-1 bg-gradient-to-r from-transparent via-cyan-glow to-transparent opacity-50 group-hover:opacity-100 transition-opacity" />
@@ -92,8 +92,8 @@ export default function BusinessImpact() {
         </div>
 
         {/* 3. Before vs After */}
-        <FadeIn delay={0.3} className="mb-32">
-          <div className="text-center mb-16">
+        <FadeIn delay={0.3} className="mb-10">
+          <div className="text-center mb-8">
             <h2 className="font-display text-4xl md:text-5xl font-bold uppercase tracking-wide text-text-main mb-4">
               3. Before vs. After
             </h2>
@@ -161,7 +161,7 @@ export default function BusinessImpact() {
 
         {/* The Ultimate Lever Quote */}
         <FadeIn delay={0.4}>
-          <div className="glass-panel p-8 md:p-16 text-center relative overflow-hidden max-w-4xl mx-auto">
+          <div className="glass-panel p-8 md:p-12 text-center relative overflow-hidden max-w-4xl mx-auto">
             <div className="absolute top-0 left-0 w-full h-[2px] bg-gradient-to-r from-transparent via-accent-blue to-transparent" />
             <Zap size={48} className="text-accent-blue mx-auto mb-8 drop-shadow-[0_0_15px_rgba(59,130,246,0.6)]" />
             <p className="font-display text-2xl md:text-4xl font-light text-text-main leading-relaxed italic mb-8">
