@@ -23,8 +23,9 @@ export default function Home() {
               A bespoke AI ecosystem engineered for the enterprise perimeter. Creating controlled velocity in revenue and cost to drive structural margin expansion.
             </p>
             <div className="flex flex-col sm:flex-row gap-6">
-              <Link to="/identity" className="bg-accent-blue text-obsidian font-display font-bold uppercase tracking-widest px-8 py-4 hover:bg-white transition-colors flex items-center justify-center gap-3 shadow-[0_0_20px_rgba(212,175,55,0.4)] hover:shadow-[0_0_30px_rgba(255,255,255,0.6)] rounded-sm">
-                Explore Sovereign AI <ArrowRight size={18} />
+              <Link to="/identity" className="relative overflow-hidden bg-deep-blue/50 backdrop-blur-md border border-royal/50 text-text-main font-display font-bold uppercase tracking-widest px-8 py-4 hover:bg-royal/30 hover:border-cyan-glow/50 transition-all duration-300 flex items-center justify-center gap-3 shadow-[0_0_20px_rgba(29,78,216,0.4)] hover:shadow-[0_0_30px_rgba(6,182,212,0.5)] rounded-sm group">
+                <div className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent -translate-x-full group-hover:translate-x-full transition-transform duration-1000 ease-in-out" />
+                Explore Sovereign AI <ArrowRight size={18} className="group-hover:translate-x-1 transition-transform" />
               </Link>
               <Link to="/arc-engine" className="glass-panel text-text-main font-display font-bold uppercase tracking-widest px-8 py-4 hover:bg-white/5 transition-colors flex items-center justify-center">
                 View Schematics

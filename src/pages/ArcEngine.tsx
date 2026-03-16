@@ -28,9 +28,18 @@ export default function ArcEngine() {
               <div className="font-mono text-2xl md:text-4xl text-accent-blue tracking-widest mb-6 drop-shadow-[0_0_8px_rgba(59,130,246,0.4)]">
                 C + D + V² = ARC ENGINE
               </div>
-              <p className="font-body text-lg text-text-main/80 leading-relaxed">
+              <p className="font-body text-lg text-text-main/80 leading-relaxed mb-8">
                 Context (C) grounded in your proprietary data. Depth (D) achieved through specialized Small Language Models (SLMs) and Vector DBs. Velocity squared (V²) driven by autonomous AI Agents executing tasks at machine speed whilst creating audit artifacts in parallel!
               </p>
+              
+              <div className="relative w-full max-w-3xl mx-auto rounded-lg overflow-hidden border border-white/10 shadow-[0_0_30px_rgba(59,130,246,0.2)]">
+                <img 
+                  src="https://static.wixstatic.com/media/b20068_a31ff2583fe843b39b8053f8ef067211~mv2.png" 
+                  alt="ARC Engine Diagram" 
+                  className="w-full h-auto object-contain bg-obsidian/50"
+                  referrerPolicy="no-referrer"
+                />
+              </div>
             </div>
           </FadeIn>
 
