@@ -72,7 +72,7 @@ export default function Layout() {
               </span>
             </div>
             <div className="font-mono text-xs text-text-muted uppercase tracking-widest">
-              &copy; {new Date().getFullYear()} ALRigs Continuum. Sovereign | Business | AI.
+              &copy; {new Date().getFullYear()} ALRigs Continuum. Sovereign | Business AI | Humanely.
             </div>
           </div>
           

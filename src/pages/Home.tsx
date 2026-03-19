@@ -17,7 +17,7 @@ export default function Home() {
             className="max-w-4xl"
           >
             <h1 className="font-display text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-bold tracking-tight leading-[1.1] text-text-main mb-8 whitespace-nowrap">
-              Sovereign | Business | AI
+              Sovereign | Business AI | Humanely
             </h1>
             <p className="font-body text-lg md:text-xl text-text-main/80 max-w-2xl leading-relaxed mb-12 border-l-2 border-accent-blue pl-6 shadow-[-4px_0_15px_-5px_rgba(212,175,55,0.2)]">
               A bespoke AI ecosystem engineered for the enterprise perimeter. Creating controlled velocity in revenue and cost to drive structural margin expansion.
